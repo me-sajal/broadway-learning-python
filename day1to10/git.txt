@@ -1,0 +1,56 @@
+git is version control system
+
+importances of git are:
+helps in team collaboration and version control of a project
+control of projects
+on install git to the system, we can use it's CLI (command line interface)
+we upload all the codes somewhere in the cloud and that place is most cases it is GitHub
+we have diffrent github like cloud systems like gitlab and bitbucket
+we have 2 types of repository in vcs (vesion control system)
+1 local repository 
+2 remote repository
+
+git commands:
+
+git init : it initializes a local repository
+
+git config --global user.name "me-sajal" : to add user
+
+git config --global user.email "sajalrokka321@gmail.com" :to assign the emalil at gmail
+
+
+
+#steps to push the code to GitHub:
+
+git add . OR git add --all : we are supposed to add all the codes in git
+
+git add < file name > : to add the file a file by name
+
+git commit -m "<first commit>"  :
+
+git push -u origin <branch_name> : add the element in the repo file name
+git push -u origin2 main
+
+git status :  helps to provide the modified codes and changes in the source code
+
+git branch : gives all the branches in the git and highlights the current branches
+
+git branch -M main : used to change the branch master to main
+
+git remote add origin < username| host-alias and ssh-link> : adds a new origin to local. 
+git remote add origin2 git@github.com:me-sajal/PracticeWorksPython.git 
+This is done to establish connection between local and remote repos.
+
+git remote -v : to see if there is git connected or not into a repo
+
+git remote -v : displays all the users | alias in the code or project 
+
+git remote remove <remote_name> : removes the alisas name (origin)
+
+git diff : shows the recent activites
+
+
+ssh-keygen -t rsa -b 4096 -C "sajalrokka321@gmail.com" : to get the ssh public and private keys 
+{ do it in cmd and so on}
+
+

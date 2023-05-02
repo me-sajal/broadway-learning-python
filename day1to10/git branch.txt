@@ -1,0 +1,17 @@
+1. git branch : list all the branches and highlights the current branch
+
+2. git branch <branch name> : creates a new branch
+
+3. git checkout <branch name> : checkout(jumps) to new branch
+
+   branch and checkout can be obtained from single command 
+
+4. git checkout-b <branch name>
+
+5. git merge <branch_name> : this updates the changes done in the branches can be done in any branches from current branch.
+
+6. 
+
+
+
+

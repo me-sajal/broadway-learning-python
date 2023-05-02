@@ -1,0 +1,7 @@
+1. Dictionary keys must be immutable
+2. Tuples can be used as the Dictionary  key until it has no any mutable values
+    a={(1,2):1} // This is valid
+    a={(1,[1,2]):2} // This is not valid
+
+3. If a key is repeated then the last assigned key is considered.
+
