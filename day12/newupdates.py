@@ -1,1 +1,1 @@
-print("this is done to check thchanges after the pulls request")
+print("this is done to check thchanges after the pulls requests")
