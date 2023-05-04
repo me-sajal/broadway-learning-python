@@ -1,7 +1,4 @@
-
-print("this is done to check thchanges after the pull requests and again")
-
-print("change from branch kritan")
-
+print("this is done to check thchanges after the pulls requests")
+print("this is the code from branch sajal")
 print("i have added something")
-
+print("change from branch kritan")
