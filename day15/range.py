@@ -9,11 +9,11 @@ for num in range(5):   # 0 1 2 3 4
 
 for num in range(0, 10, 2):     # 0 2 4 6 8
     print(num)
-for num in range(10, 0, -1): # 10 9 8 7 6 5 4 3 2 1
+for num in range(10, 0, -1):    # 10 9 8 7 6 5 4 3 2 1
     print(num)
 
 # if we do not want the loop value inside the loop then we can use underscore _
 
-for _ in range(5)
-    print("hello world") #this prints "hello world" 5 times
-    
+for _ in range(5):
+    print("hello world")    # this prints "hello world" 5 times
+
