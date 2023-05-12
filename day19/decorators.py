@@ -20,5 +20,14 @@ def execution_time(fun):
         end_time = time.time()
         print("the time taken to execute is ", end_time - start_time)
         return a
-    pass
+    return inner_fun
+
+def loginreq(fun):
+    def inner_fun():
+        password = int(input("enter a password"))
+        if password != 1234:
+            print("invalid password")
+            exit()
+        a = fun()
+        return a
     return inner_fun

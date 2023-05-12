@@ -1,4 +1,4 @@
-from day19.decorators import change_to_upper
+from day19.decorators import change_to_upper, loginreq
 from day19.decorators import execution_time
 import time
 
@@ -25,3 +25,9 @@ def timecal():
         continue
     return "done"
 print(timecal())
+
+@loginreq
+def message():
+    return "Python is Awsesome"
+print(message())
+
