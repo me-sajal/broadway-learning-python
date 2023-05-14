@@ -2,8 +2,19 @@
 #     def inne_fun():
 # write logics
 #         return fun()
-#     pass
 #     return inne_fun
+
+# def decorator_name(fun):
+#     def inne_fun(*args, **kwargs):
+# write logics
+#         return fun(*args, **kwargs)
+#     return inne_fun
+
+
+
+
+
+
 
 import time
 def change_to_upper(fun):
